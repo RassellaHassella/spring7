@@ -9,7 +9,6 @@ import ru.rassella.spring.spring7.model.User;
 import java.util.List;
 
 @Service
-
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserDAO userDAO;
